@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import Cards from "../Cards/Cards";
+import Cards from "../Cards/HomeCards";
 import HomeSection from "../HomeSection/HomeSection";
 import Footer from "../Footer/Footer";
 

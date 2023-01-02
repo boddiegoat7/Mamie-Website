@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
-import Cards from "../Cards/Cards";
-import EventSection from "../EventSection/EventSection";
+import Cards from "../Cards/EventCards";
+import EventSection from "../PageSection/PageSection";
 import Footer from "../Footer/Footer";
 
 function Home() {
