@@ -1,6 +1,17 @@
 import React from "react";
 import "../../App.css";
+import Cards from "../Cards/PrayerCards";
+import PrayerSection from "../PrayerSection/PrayerSection";
+import Footer from "../Footer/Footer";
 
-export default function Prayer() {
-  return <h1 className="prayer">Prayer Schedule</h1>;
+function Events() {
+  return (
+    <>
+      <PrayerSection />
+      <Cards />
+      <Footer />
+    </>
+  );
 }
+
+export default Events;

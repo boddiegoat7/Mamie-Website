@@ -1,14 +1,14 @@
 import React from "react";
 import "../../App.css";
-import "./PageSection.css";
+import "./EventSection.css";
 
-function PageSection() {
+function EventSection() {
   return (
-    <div className="page-container">
+    <div className="event-container">
       <img src="images/img-1.jpg" />
       <h1>Weekly Services Upcoming Events</h1>
     </div>
   );
 }
 
-export default PageSection;
+export default EventSection;

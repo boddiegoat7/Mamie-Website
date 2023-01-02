@@ -2,50 +2,135 @@ import React from "react";
 import "./EventCards.css";
 import CardItem from "./CardItem";
 
-function Cards() {
+function EventCards() {
   return (
-    <div className="cards">
+    <div className="event">
       <h1>Below are up coming Community Events!</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
-            <CardItem
-              src="images/img-9.jpg"
-              text="Weekly Services Upcoming Events"
-              label="Events"
-              path="/events"
-            />
+      <div className="event__container">
+        <div className="event__wrapper">
+          <ul className="event__items">
             <CardItem
               src="images/img-2.jpg"
-              text="Corporate Prayer & Fasting Guide"
-              label="Prayer"
-              path="/prayer"
+              text="
+              6 am Intercessory Prayer Call
+              Tel: (571) 525-1291
+              
+              Access Code: 47-90-167
+              11 a.m. Worship Service (Doors open at 10:45 a.m.)
+              "
+              label="Sunday and Thursday Events"
             />
-          </ul>
-          <ul className="cards__items">
+
             <CardItem
               src="images/img-3.jpg"
-              text="Meet The Leaders Of The Congragation"
-              label="Minestry"
-              path="/minestry"
+              text="
+              9pm - Intercessory Prayer Call
+
+              Tel: (571) 525-1291
+
+              Access Code: 47-90-167
+              "
+              label="Tuesday Events"
             />
+
             <CardItem
-              src="images/img-4.jpg"
-              text="Our Community Vision"
-              label="About Us"
-              path="/about-us"
-            />
-            <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Contact Us"
-              path="/contact-us"
+              src="images/img-3.jpg"
+              text="
+              7:00pm - Bible Study
+
+              Doors open at 6:45 p.m.
+              "
+              label="Wednesday Events"
             />
           </ul>
         </div>
+      </div>
+
+      <h1>Below Is the Montly Event Calender For 2023!</h1>
+      <div className="event__container">
+        <div className="event__wrapper"></div>
+
+        <ul className="event__items">
+          <CardItem
+            src="images/img-2.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="January"
+          />
+
+          <CardItem
+            src="images/img-3.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="Febuary"
+          />
+        </ul>
+
+        <ul className="event__items">
+          <CardItem
+            src="images/img-4.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="March"
+          />
+          <CardItem
+            src="images/img-8.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="April"
+          />
+        </ul>
+
+        <ul className="event__items">
+          <CardItem
+            src="images/img-4.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="May"
+          />
+          <CardItem
+            src="images/img-8.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="June"
+          />
+        </ul>
+
+        <ul className="event__items">
+          <CardItem
+            src="images/img-4.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="July"
+          />
+          <CardItem
+            src="images/img-8.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="August"
+          />
+        </ul>
+
+        <ul className="event__items">
+          <CardItem
+            src="images/img-4.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="Septemebr"
+          />
+          <CardItem
+            src="images/img-8.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="October"
+          />
+        </ul>
+
+        <ul className="event__items">
+          <CardItem
+            src="images/img-4.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="November"
+          />
+          <CardItem
+            src="images/img-8.jpg"
+            text="COMEBACK FOR FUTURE ANOUNCEMENTS!"
+            label="December"
+          />
+        </ul>
       </div>
     </div>
   );
 }
 
-export default Cards;
+export default EventCards;

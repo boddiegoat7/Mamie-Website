@@ -1,10 +1,10 @@
 import React from "react";
 import "../../App.css";
 import Cards from "../Cards/EventCards";
-import EventSection from "../PageSection/PageSection";
+import EventSection from "../EventSection/EventSection";
 import Footer from "../Footer/Footer";
 
-function Home() {
+function Events() {
   return (
     <>
       <EventSection />
@@ -14,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Events;

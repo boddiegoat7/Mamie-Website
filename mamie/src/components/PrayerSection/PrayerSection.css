@@ -1,4 +1,4 @@
-img {
+video {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -6,7 +6,7 @@ img {
   z-index: -1;
 }
 
-.page-container {
+.prayer-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 50vh;
   width: 100%;
@@ -18,25 +18,28 @@ img {
   object-fit: contain;
 }
 
-.page-container > h1 {
+.prayer-container > h1 {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
 }
 
-.page-container > p {
+.prayer-container > p {
+  text-align: center;
   margin-top: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.hero-btns {
+.prayer-btns {
   margin-top: 32px;
 }
 
-.hero-btns .btn {
+.prayer-btns .btn {
   margin: 6px;
 }
 
@@ -45,20 +48,23 @@ img {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
+  .prayer-container > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
-    font-size: 50px;
+  .prayer-container > h1 {
+    font-size: 45px;
     margin-top: -100px;
   }
 
-  .hero-container > p {
-    font-size: 30px;
+  .prayer-container > p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+    
   }
 
   .btn-mobile {
