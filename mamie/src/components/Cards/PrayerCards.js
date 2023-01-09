@@ -1,10 +1,8 @@
 import React from "react";
-import "./PrayerCard.css";
+import "./HomeCards.css";
 import CardItem from "./CardItem";
 
 function Cards() {
-
-
   return (
     <div className="cards">
       <h1>Come Join A Community Of Fellowship!</h1>
@@ -13,9 +11,17 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-9.jpg"
-              text="Weekly Services Upcoming Events"
+              text="
+              1. Improves your ability to hear from God (Ezra 8:21)
+
+2. Builds you up spiritually (Matthew 4:2, 23, 24)
+
+3. Lifts oppression and breaks demonic powers ( Mark 9:29, Isaiah 58: 6-8)
+
+4. Leads you into a time of humility and repentance (Psalm 109:22-26)
+
+5. Causes health to spring forth speedily (Isaiah 58:8)"
               label="Events"
-              path="/events"
             />
             <CardItem
               src="images/img-2.jpg"
